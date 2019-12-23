@@ -68,15 +68,16 @@ div.social ul{
 div.social ul li{
     margin-right:40px;
 }
+
 div.social ul li a{
     color:rgba(143, 138, 138, 0.589);
 }
 div.social span{
     color:rgba(143, 138, 138, 0.589);
-    font-size:1.4em;
+    font-size:1.2em;
 }
 /* Movie */
-div.movies section{
+div.movies .moviediv{
     padding:8% 0%;
     background:white;
     display:flex;
@@ -89,7 +90,7 @@ div.movies section{
 -moz-box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
 box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
 }
-div.movies section article{
+div.movies .moviediv div{
     margin-bottom:40px;
 }
 div.movies img{
@@ -105,38 +106,38 @@ div.movies h3{
     text-align:center;
     font-size:1.1em;
 }
-div.movies article:first-child{
+div.movies .moviediv div:first-child{
     width:80%;
 }
-div.movies article:nth-child(3){
+div.movies .moviediv div:nth-child(3){
     width:80%;
 }
-div.movies article:nth-child(5){
+div.movies .moviediv div:nth-child(5){
     width:80%;
 }
-div.movies article:nth-child(7){
+div.movies .moviediv div:nth-child(7){
     width:80%;
 }
-div.movies article:nth-child(2){
+div.movies .moviediv div:nth-child(2){
     flex-direction: column;
     width:20%;
 }
-div.movies article:nth-child(4){
+div.movies .moviediv div:nth-child(4){
     flex-direction: column;
     width:20%;
 }
-div.movies article:nth-child(6){
+div.movies .moviediv div:nth-child(6){
     flex-direction: column;
     width:20%;
 }
-div.movies article p{
+div.movies .moviediv div p{
     padding:5%;
     font-size:1.1em;
 }
-section a{
+.moviediv a{
     color:black;
     font-weight:bold;
 }
-section a:hover{
+.moviediv a:hover{
     color:rgb(68, 68, 68);
 }
