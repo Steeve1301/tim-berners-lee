@@ -1,0 +1,133 @@
+/* Global */
+body{
+    background:#EBEBEB;
+    color:rgb(134, 130, 130);
+    font-family: 'Open Sans', serif;
+}
+div.global{
+    margin:2% 30%;
+}
+/* Presentation */
+div.presentation{
+    padding:4% 3%;
+    background:white;
+    margin-bottom:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.presentation img{
+    width:100px;
+    border-radius:100px;
+    border:3px solid rgb(172, 168, 168);
+}
+div.presentation h1{
+    color:#DD5555;
+    font-weight:bold;
+    font-size:2em;
+    padding:15px 0px;
+}
+div.presentation h2{
+    font-size:1.4em;
+    font-weight:normal;
+    padding-bottom:25px;
+}
+div.presentation p{
+    line-height: 1.5;
+    font-size:1.25em;
+    padding-bottom:15px;
+}
+div.presentation a{
+    color:white;
+    font-size:1.1em;
+    background:#DD5555;
+    padding: 12px 5px;
+    border-radius:5px;
+}
+/*Social */
+div.social{
+    background:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:60px 0px;
+    margin-bottom:25px;
+}
+div.social ul{
+    display:flex;
+    text-align: center;
+}
+div.social ul li{
+    margin-right:40px;
+}
+div.social ul li a{
+    color:rgba(143, 138, 138, 0.589);
+}
+div.social span{
+    color:rgba(143, 138, 138, 0.589);
+    font-size:1.4em;
+}
+/* Movie */
+div.movies section{
+    padding:8% 0%;
+    background:white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:6% 5%;
+    text-align:justify;
+}
+div.movies section article{
+    margin-bottom:40px;
+}
+div.movies img{
+    width:80px;
+}
+div.movies h2{
+    font-size:1.2em;
+    width:100%;
+    text-align: center;
+    margin-bottom:50px;
+}
+div.movies h3{
+    text-align:center;
+    font-size:1.1em;
+}
+div.movies article:first-child{
+    width:80%;
+}
+div.movies article:nth-child(3){
+    width:80%;
+}
+div.movies article:nth-child(5){
+    width:80%;
+}
+div.movies article:nth-child(7){
+    width:80%;
+}
+div.movies article:nth-child(2){
+    flex-direction: column;
+    width:20%;
+}
+div.movies article:nth-child(4){
+    flex-direction: column;
+    width:20%;
+}
+div.movies article:nth-child(6){
+    flex-direction: column;
+    width:20%;
+}
+div.movies article p{
+    padding:5%;
+    font-size:1.1em;
+}
+section a{
+    color:black;
+    font-weight:bold;
+}
+section a:hover{
+    color:rgb(68, 68, 68);
+}
