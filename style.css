@@ -16,6 +16,9 @@ div.presentation{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    -webkit-box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
+-moz-box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
+box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
 }
 div.presentation img{
     width:100px;
@@ -54,6 +57,9 @@ div.social{
     align-items: center;
     padding:60px 0px;
     margin-bottom:25px;
+    -webkit-box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
+-moz-box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
+box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
 }
 div.social ul{
     display:flex;
@@ -79,6 +85,9 @@ div.movies section{
     align-items: flex-start;
     padding:6% 5%;
     text-align:justify;
+    -webkit-box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
+-moz-box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
+box-shadow: -3px 3px 0px -2px rgba(201,179,201,1);
 }
 div.movies section article{
     margin-bottom:40px;
